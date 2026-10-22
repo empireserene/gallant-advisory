@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   description:
     "Gallant Advisory is a Dubai-based consulting firm helping businesses enter the UAE and set up companies, manufacturing, sourcing, finance, and end-to-end operations.",
-  metadataBase: new URL("https://gallantadvisory.com"),
+  metadataBase: new URL("https://gallant-advisory.vercel.app"),
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
