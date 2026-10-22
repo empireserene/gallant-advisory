@@ -24,83 +24,68 @@ export type Service = {
 
 export const services: Service[] = [
   {
-    slug: "company-incorporation",
-    title: "Company Incorporation",
+    slug: "innovation-artificial-intelligence-research-consultancies",
+    title: "Innovation & Artificial Intelligence Research & Consultancies",
     summary:
-      "Mainland, free zone, and offshore formation — licence, trade name, and first approvals, sequenced correctly.",
-    image: "/images/hero-dubai.jpg",
-    intro:
-      "Entering the UAE starts with the right vehicle. We help you choose between Dubai Mainland, a free zone, or an offshore holding structure based on who you will sell to, how many visas you need, whether you require a warehouse or factory, and how banks are likely to view the file. Then we manage trade-name reservation, activity selection, initial approvals, and licence issuance so you are not left with a licence you cannot bank, staff, or operate.",
-    points: [
-      "Mainland vs free zone vs offshore comparison against your commercial model",
-      "Activity codes, trade name, and memorandum aligned to the real business",
-      "Coordination with DED, free-zone authorities, and external approvals",
-      "Establishment card, immigration file, and investor visa planning",
-    ],
-  },
-  {
-    slug: "feasibility-studies",
-    title: "Feasibility Studies",
-    summary:
-      "Commercial, financial, and operational viability before you commit capital in the UAE.",
-    image: "/images/hero-finance.jpg",
-    intro:
-      "A Dubai licence is inexpensive compared with a poorly chosen activity, location, or plant. We assess demand, competitive intensity, licensing constraints, premises cost, labour, utilities, and tax position so the decision to enter is grounded in numbers — not a brochure.",
-    points: [
-      "Market sizing and customer-channel mapping for UAE and re-export",
-      "Capex, opex, and working-capital models with realistic setup timelines",
-      "Licence, visa, and premises constraints built into the business case",
-      "Go / no-go recommendations with a sequenced implementation plan",
-    ],
-  },
-  {
-    slug: "corporate-structuring",
-    title: "Corporate Structuring",
-    summary:
-      "Ownership, holding, and operating structures designed for control, banking, and tax substance.",
+      "Turning emerging technologies into practical advantages for UAE operations, products, and decisions.",
     image: "/images/hero-office.jpg",
     intro:
-      "How you hold the UAE company matters as much as forming it. We design structures that match shareholder goals — operating company, regional hub, manufacturing SPV, or holding layer — with attention to UAE corporate tax, qualifying free-zone income, economic substance, and banking KYC.",
+      "We help businesses evaluate and apply innovation and artificial intelligence where it creates operating value — not as a slogan. For companies entering or expanding in the UAE, that means identifying use cases in trade, manufacturing, customer insight, and internal reporting, then scoping tools, vendors, and a realistic rollout. Research is paired with consultancy so findings become a plan your team can run.",
     points: [
-      "Shareholder and group charts that banks and authorities can follow",
-      "Guidance on 100% foreign ownership pathways now available for most activities",
-      "Substance, office, and staffing plans that support the chosen tax position",
-      "Coordination of legal documentation with your counsel and local authorities",
+      "Opportunity scans for AI and digital use cases in your sector",
+      "Vendor and proof-of-concept evaluation with implementation support",
+      "Data, process, and governance recommendations before you scale",
+      "Practical roadmaps tied to UAE operations, not generic tech decks",
     ],
   },
   {
-    slug: "manufacturing-setup",
-    title: "Manufacturing Setup",
+    slug: "logistics-consultancy",
+    title: "Logistics Consultancy",
     summary:
-      "Industrial licensing, premises, and production readiness — from concept to a plant that can operate.",
-    image: "/images/hero-factory.jpg",
+      "Optimising supply chains for efficiency, cost control, and reliability through UAE trade gateways.",
+    image: "/images/hero-port.jpg",
     intro:
-      "Manufacturing in Dubai is not a standard trade licence. You typically need industrial premises, the correct local industrial licence, and federal MOIAT industrial production licensing. We coordinate activity selection, factory or warehouse search, fit-out sequencing, and the federal layer that unlocks customs relief and in-country value pathways.",
+      "Dubai’s advantage is as a logistics and re-export hub. We advise on how goods should move once your company is live — warehouse location, 3PL selection, inbound and outbound flows through Jebel Ali and the wider UAE network, and the documentation that keeps shipments aligned with your licence. The aim is a supply chain you can cost, staff, and trust.",
     points: [
-      "Industrial activity mapping and mainland vs industrial free-zone choice",
-      "Premises, utilities, and layout requirements for a production licence",
-      "MOIAT industrial production licence coordination and documentation",
-      "Supplier, equipment, and commissioning support through our network",
+      "Import, export, and distribution design matched to your licence",
+      "Warehouse and 3PL shortlists near port, airport, or factory",
+      "Practical guidance on documentation, routing, and service levels",
+      "Cost-to-serve and reliability reviews after operations start",
     ],
   },
   {
-    slug: "real-estate-premises",
-    title: "Real Estate & Premises",
+    slug: "marketing-research-consultancies",
+    title: "Marketing Research & Consultancies",
     summary:
-      "Offices, flexi-desks, warehouses, and industrial land matched to licence, visas, and operations.",
-    image: "/images/hero-build.jpg",
+      "Market and customer insight so you enter Dubai with a commercial plan, not only a licence.",
+    image: "/images/hero-marina.jpg",
     intro:
-      "Visa quota, Ejari, banking comfort, and manufacturing eligibility all depend on the space you take. We advise on whether a flexi-desk, dedicated office, warehouse, or industrial unit is the right first step — then help source and document it so the licence and immigration file stay aligned.",
+      "Incorporation is the start, not the strategy. We research who buys, how channels and distributors work, what pricing looks like, and where a new entrant can realistically win — in the UAE market, free-zone re-export, or both. Findings are written as decisions: positioning, first customers, and a 90-day go-to-market sequence.",
     points: [
-      "Office, warehouse, and industrial-unit shortlists against licence needs",
-      "Ejari / lease documentation sequenced with company formation",
-      "Visa-capacity planning tied to premises size and free-zone packages",
-      "Fit-out and handover coordination for operational go-live",
+      "Channel maps: direct, distributor, government, and regional re-export",
+      "Competitor and pricing snapshots for your category",
+      "Customer and localisation insight that affects how you sell",
+      "A commercial plan that sits on top of the legal setup",
     ],
   },
   {
-    slug: "sourcing-procurement",
-    title: "Sourcing & Procurement",
+    slug: "management-consultancies",
+    title: "Management Consultancies",
+    summary:
+      "Strengthening strategy, leadership, structure, and organisational performance as you set up and scale.",
+    image: "/images/hero-skyline.jpg",
+    intro:
+      "Entering the UAE is an operating change, not only a filing. We work with founders and management teams on the structure of the new entity, how decisions will be made, what to staff locally, and how the UAE company sits beside the overseas group. Advisory covers strategy, organisation, and the practical rhythm of running the business after the licence is issued.",
+    points: [
+      "Operating model for the UAE entity: roles, reporting, and controls",
+      "Strategy for market entry, expansion, or a regional hub",
+      "Coordination of incorporation, banking, and compliance as one programme",
+      "Hands-on support so the company can hire, buy, sell, and report",
+    ],
+  },
+  {
+    slug: "sourcing-procurement-consultant",
+    title: "Sourcing & Procurement Consultant",
     summary:
       "Supplier identification, product sourcing, and procurement controls for UAE and re-export operations.",
     image: "/images/hero-trade.jpg",
@@ -108,69 +93,84 @@ export const services: Service[] = [
       "Once the company exists, it still has to buy well. We help you identify, qualify, and coordinate suppliers — local, regional, and international — covering raw materials, finished goods, equipment, and services. The aim is a reliable supply base with commercial terms, quality checks, and logistics that match your Dubai operating model.",
     points: [
       "Supplier mapping and RFQ coordination across GCC and origin markets",
-      "Quality, lead-time, and Incoterms aligned to your warehouse or factory",
-      "Procurement policies that reduce concentration and payment risk",
+      "Quality, lead-time, and commercial terms aligned to your operation",
+      "Procurement processes that reduce concentration and payment risk",
       "Introductions through our network for specialised categories",
     ],
   },
   {
-    slug: "financial-audit-tax",
-    title: "Financial Audit & Tax",
+    slug: "real-estate-consultancies",
+    title: "Real Estate Consultancies",
     summary:
-      "Bookkeeping, VAT, corporate tax, and audit-ready accounts for a UAE entity that can renew and bank.",
+      "Advice on offices, warehouses, industrial space, and property decisions linked to your UAE licence.",
+    image: "/images/hero-build.jpg",
+    intro:
+      "Visa quota, lease documentation, banking comfort, and manufacturing eligibility all depend on the space you take. We advise on whether a flexi-desk, dedicated office, warehouse, or industrial unit is the right first step — then help source and document it so the licence and immigration file stay aligned. We also support property strategy where investment or development is part of the mandate.",
+    points: [
+      "Office, warehouse, and industrial-unit shortlists against licence needs",
+      "Lease and occupancy documentation sequenced with company formation",
+      "Visa-capacity planning tied to premises size and free-zone packages",
+      "Property strategy for occupation, investment, or development",
+    ],
+  },
+  {
+    slug: "information-technology-consultants",
+    title: "Information Technology Consultants",
+    summary:
+      "Aligning technology, systems, and digital operations with how the UAE business will actually run.",
+    image: "/images/hero-office.jpg",
+    intro:
+      "A new UAE company needs systems that match its size and compliance load — accounting, operations, trade documents, and customer processes. We advise on technology choices, vendor selection, and implementation so IT supports the licence, the warehouse or office, and the team, rather than becoming a separate project.",
+    points: [
+      "IT landscape for a new or expanding UAE entity",
+      "Vendor evaluation and implementation coordination",
+      "Systems for operations, reporting, and day-to-day control",
+      "Practical digital setup that scales with visas, stock, and customers",
+    ],
+  },
+  {
+    slug: "project-development-consultant",
+    title: "Project Development Consultant",
+    summary:
+      "Guiding projects from concept through planning to execution readiness in the UAE.",
+    image: "/images/hero-factory.jpg",
+    intro:
+      "Whether you are opening a trading company, a factory, or a multi-entity structure, the work is a project: concept, permissions, premises, suppliers, and go-live. We develop that pathway with you — activity and location choices, industrial or commercial licensing where required, and the sequence of tasks that takes a plan from paper to a business that can operate.",
+    points: [
+      "Concept-to-readiness planning for UAE setup and expansion",
+      "Manufacturing, trading, and multi-entity development pathways",
+      "Licensing, premises, and counterpart coordination in one timeline",
+      "Execution packs so contractors, authorities, and your team stay aligned",
+    ],
+  },
+  {
+    slug: "feasibility-studies-consultancies",
+    title: "Feasibility Studies Consultancies",
+    summary:
+      "Assessing commercial, financial, and operational viability before you commit capital in the UAE.",
     image: "/images/hero-finance.jpg",
     intro:
-      "UAE companies must register for corporate tax, and many must register for 5% VAT once taxable supplies cross the threshold. Licence renewal, free-zone qualifying-income claims, and bank reviews all depend on clean books. We coordinate accounting setup, VAT and corporate-tax filings, and audit-ready financials so compliance is part of operations — not a scramble at year-end.",
+      "A Dubai licence is inexpensive compared with a poorly chosen activity, location, or plant. We assess demand, competitive intensity, licensing constraints, premises cost, labour, utilities, and tax position so the decision to enter is grounded in numbers — not a brochure. The output is a go / no-go view and a sequenced plan if you proceed.",
     points: [
-      "Chart of accounts and bookkeeping from day one of the licence",
-      "VAT registration and return support (mandatory threshold AED 375,000)",
-      "Corporate tax registration and return coordination with your auditors",
-      "Audit-ready packs for banks, free zones, and shareholders",
+      "Market sizing and customer-channel mapping for UAE and re-export",
+      "Capex, opex, and working-capital models with realistic timelines",
+      "Licence, visa, and premises constraints built into the business case",
+      "Clear recommendations with the next implementation steps",
     ],
   },
   {
-    slug: "investment-financing",
-    title: "Investment & Financing",
+    slug: "project-management-services",
+    title: "Project Management Services",
     summary:
-      "Banking files, capital planning, and introductions to financing pathways for UAE operations.",
-    image: "/images/hero-skyline.jpg",
+      "Delivering setup and operating projects on time, on budget, and aligned with agreed objectives.",
+    image: "/images/hero-dubai.jpg",
     intro:
-      "A licence without a bank account is not a business. We prepare corporate banking files with the substance, documents, and narrative banks expect, and we coordinate conversations on working capital, trade finance, and investment where your model requires it. We do not guarantee bank approval — we make the file bankable and stay with you through the process.",
+      "UAE market entry is a programme of work: incorporation, premises, visas, banking files, suppliers, and launch. We provide project management so those workstreams stay in sequence, owners are clear, and delays at one authority or vendor do not stall the rest. You get a single coordinating desk instead of chasing every party yourself.",
     points: [
-      "Corporate account file preparation and bank matching by activity",
-      "Source-of-funds and KYC packs that reduce bounce-backs",
-      "Working-capital and trade-finance discussion support",
-      "Coordination with investors or group treasury for capitalisation",
-    ],
-  },
-  {
-    slug: "logistics-trade",
-    title: "Logistics & Trade",
-    summary:
-      "Customs, warehousing, and supply-chain setup so goods can move once the company is live.",
-    image: "/images/hero-port.jpg",
-    intro:
-      "Dubai’s value is as a trade and distribution hub. We help you connect the licence to actual movement of goods — customs codes, warehouse location, 3PL selection, and inbound/outbound flows through Jebel Ali and the wider UAE gateway network.",
-    points: [
-      "Import/export process design aligned to your licence activities",
-      "Warehouse and 3PL shortlists near port, airport, or factory",
-      "Documentation, HS codes, and duty/VAT treatment at a practical level",
-      "Reliability and cost-to-serve reviews once operations start",
-    ],
-  },
-  {
-    slug: "market-entry-research",
-    title: "Market Entry Research",
-    summary:
-      "Customer, channel, and competitor insight so you enter Dubai with a commercial plan, not only a licence.",
-    image: "/images/hero-marina.jpg",
-    intro:
-      "Incorporation is the start, not the strategy. We research who buys, how tenders and distributors work, what pricing looks like, and where a new entrant can realistically win — in the UAE market, free-zone re-export, or both.",
-    points: [
-      "Channel maps: direct, distributor, government, and regional re-export",
-      "Competitor and pricing snapshots for your category",
-      "Regulatory and localisation considerations that affect go-to-market",
-      "A 90-day commercial plan that sits on top of the legal setup",
+      "End-to-end project plans for company setup and go-live",
+      "Tracking of authorities, landlords, banks, and vendors",
+      "Budget, timeline, and risk reporting to the client team",
+      "Handover into operations once the company can run",
     ],
   },
 ];

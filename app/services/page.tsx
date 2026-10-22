@@ -8,7 +8,7 @@ import { services } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "UAE company incorporation, manufacturing setup, sourcing, finance, logistics, and end-to-end market entry with Gallant Advisory.",
+    "Licensed consultancy services: project management, feasibility studies, IT, real estate, sourcing, management, logistics, marketing research, and AI innovation — with Gallant Advisory in Dubai.",
 };
 
 export default function ServicesPage() {
