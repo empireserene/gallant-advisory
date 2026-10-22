@@ -29,7 +29,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main>{children}</main>
         <Footer />
         <p className="sr-only">
-          {site.legalName}, {site.address}, {site.phoneDisplay}
+          {site.legalName}, {site.address}, {site.phones.map((p) => p.display).join(", ")}
         </p>
       </body>
     </html>

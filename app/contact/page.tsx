@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: `Contact Gallant Advisory in Al Muraqabbat, Dubai. ${site.phoneDisplay}. ${site.address}`,
+  description: `Contact Gallant Advisory in Al Muraqabbat, Dubai. ${site.phones.map((p) => p.display).join(", ")}. ${site.address}`,
 };
 
 export default function ContactPage() {
@@ -26,10 +26,12 @@ export default function ContactPage() {
         <div className="mx-auto max-w-xl rounded-[28px] bg-[#f7f8f8] p-8 text-center">
           <h2 className="text-2xl">Visit or call</h2>
           <p className="mt-5 text-[16px] leading-8 text-muted">{site.address}</p>
-          <p className="mt-6">
-            <a href={site.phoneHref} className="text-xl hover:underline">
-              {site.phoneDisplay}
-            </a>
+          <p className="mt-6 space-y-2">
+            {site.phones.map((phone) => (
+              <a key={phone.href} href={phone.href} className="block text-xl hover:underline">
+                {phone.display}
+              </a>
+            ))}
           </p>
           <p className="mt-8 text-sm leading-6 text-muted">
             Gallant Advisory Services LLC

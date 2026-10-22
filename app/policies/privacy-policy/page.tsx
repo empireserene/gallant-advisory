@@ -31,7 +31,7 @@ export default function PrivacyPage() {
         <h2 className="text-2xl text-black">Contact</h2>
         <p>
           Questions about this policy can be sent to us at {site.address}, or by
-          telephone on {site.phoneDisplay}.
+          telephone on {site.phones.map((p) => p.display).join(" or ")}.
         </p>
       </div>
     </article>

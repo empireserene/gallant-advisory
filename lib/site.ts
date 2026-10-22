@@ -4,6 +4,10 @@ export const site = {
   tagline: "Your one-stop partner for entering Dubai and building a business that actually runs.",
   phoneDisplay: "+971 50643 7651",
   phoneHref: "tel:+971506437651",
+  phones: [
+    { display: "+971 50643 7651", href: "tel:+971506437651" },
+    { display: "+971 043993624", href: "tel:+97143993624" },
+  ],
   address: "Unit 10, 3001 Rigga Business Center, Al Muraqabbat, Dubai",
   mapsQuery: "Rigga Business Center Al Muraqabat Dubai",
   email: "hello@gallantadvisory.com",

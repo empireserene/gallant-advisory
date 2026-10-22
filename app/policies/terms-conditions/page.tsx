@@ -34,7 +34,7 @@ export default function TermsPage() {
           <br />
           {site.address}
           <br />
-          {site.phoneDisplay}
+          {site.phones.map((p) => p.display).join(" · ")}
         </p>
       </div>
     </article>

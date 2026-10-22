@@ -93,9 +93,11 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
-            <a href={site.phoneHref} className="text-muted">
-              {site.phoneDisplay}
-            </a>
+            {site.phones.map((phone) => (
+              <a key={phone.href} href={phone.href} className="text-muted">
+                {phone.display}
+              </a>
+            ))}
           </div>
         </div>
       )}

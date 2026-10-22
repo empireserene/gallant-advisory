@@ -15,9 +15,13 @@ export function Footer() {
           <p className="mt-6 text-[15px] leading-7 text-muted">
             {site.address}
             <br />
-            <a href={site.phoneHref} className="text-black hover:underline">
-              {site.phoneDisplay}
-            </a>
+            {site.phones.map((phone) => (
+              <span key={phone.href} className="block">
+                <a href={phone.href} className="text-black hover:underline">
+                  {phone.display}
+                </a>
+              </span>
+            ))}
           </p>
         </div>
         <div>
