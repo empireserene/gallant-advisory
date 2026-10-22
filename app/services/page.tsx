@@ -15,10 +15,10 @@ export default function ServicesPage() {
   return (
     <>
       <section className="mx-auto max-w-[1400px] px-5 pb-8 pt-12 md:px-10 md:pt-20">
-        <div className="max-w-3xl">
+        <div className="mx-auto max-w-3xl text-center">
           <Badge>Services</Badge>
           <h1 className="display mt-6 text-[42px] md:text-[72px]">Your guide for the road ahead</h1>
-          <p className="mt-5 text-[17px] leading-8 text-muted">
+          <p className="mx-auto mt-5 max-w-2xl text-[17px] leading-8 text-muted">
             End-to-end support for entering the UAE: incorporate, structure, source,
             manufacture, finance, and operate — with one team coordinating the work.
           </p>

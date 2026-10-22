@@ -8,7 +8,7 @@ export function FAQ() {
 
   return (
     <section className="mx-auto max-w-[1400px] px-5 py-24 md:px-10">
-      <div className="mb-12 max-w-2xl">
+      <div className="mx-auto mb-12 max-w-2xl text-center">
         <p className="mb-4 text-sm text-muted">FAQ</p>
         <h2 className="display text-4xl md:text-6xl">Frequently asked questions</h2>
         <p className="mt-5 text-[16px] leading-7 text-muted">

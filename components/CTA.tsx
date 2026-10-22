@@ -16,17 +16,17 @@ export function CTA() {
   return (
     <section className="mx-auto max-w-[1400px] px-5 py-24 md:px-10">
       <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
-        <div>
+        <div className="text-center lg:text-left">
           <Badge>Next step</Badge>
-          <h2 className="display mt-6 max-w-xl text-4xl md:text-6xl">
+          <h2 className="display mx-auto mt-6 max-w-xl text-4xl md:text-6xl lg:mx-0">
             “Enter Dubai with a structure, a plan, and a team that stays.”
           </h2>
-          <p className="mt-6 max-w-xl text-[16px] leading-7 text-muted">
+          <p className="mx-auto mt-6 max-w-xl text-[16px] leading-7 text-muted lg:mx-0">
             Partner with Gallant Advisory to incorporate, source, manufacture, finance,
             and operate in the UAE. From the first licence to a company that can trade,
             hire, and report — we coordinate the work end to end.
           </p>
-          <div className="mt-8">
+          <div className="mt-8 flex justify-center lg:justify-start">
             <Button href="/contact">Contact Us</Button>
           </div>
         </div>

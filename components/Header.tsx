@@ -8,7 +8,7 @@ import { services, site } from "@/lib/site";
 
 const nav = [
   { href: "/", label: "Home" },
-  { href: "/#services", label: "Services" },
+  { href: "/services", label: "Services" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
@@ -39,7 +39,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md">
-      <div className="mx-auto flex max-w-[1400px] items-center justify-between px-5 py-4 md:px-10">
+      <div className="relative mx-auto flex max-w-[1400px] items-center justify-between px-5 py-4 md:px-10">
         <Link href="/" className="relative z-10">
           <Image
             src="/logo.png"
@@ -51,7 +51,7 @@ export function Header() {
           />
         </Link>
 
-        <nav className="hidden items-center gap-8 text-[15px] text-muted md:flex">
+        <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-8 text-[15px] text-muted md:flex">
           {nav.map((item) => (
             <Link key={item.href} href={item.href} className="hover:text-black">
               {item.label}
@@ -59,7 +59,7 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="relative z-10 flex items-center gap-2">
           <button
             type="button"
             aria-label="Search"
@@ -86,7 +86,7 @@ export function Header() {
       </div>
 
       {open && (
-        <div className="border-t border-line bg-white px-6 py-6 lg:hidden">
+        <div className="border-t border-line bg-white px-6 py-6 md:hidden">
           <div className="flex flex-col gap-4 text-lg">
             {nav.map((item) => (
               <Link key={item.href} href={item.href} className="py-1">

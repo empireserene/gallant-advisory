@@ -19,19 +19,19 @@ export default function Home() {
   return (
     <>
       <section id="hero" className="mx-auto max-w-[1400px] px-5 pb-8 pt-10 md:px-10 md:pt-16">
-        <div className="ml-auto max-w-3xl text-center md:text-right">
+        <div className="mx-auto max-w-3xl text-center">
           <Badge>Gallant Advisory</Badge>
-          <h1 className="display mt-6 text-[42px] md:text-[72px] lg:text-[80px]">
+          <h1 className="display mt-6 text-[42px] md:text-[68px] lg:text-[76px]">
             Your one-stop path into Dubai.
           </h1>
-          <p className="mt-6 text-[17px] leading-8 text-muted md:ml-auto md:max-w-xl">
+          <p className="mx-auto mt-6 max-w-2xl text-[17px] leading-8 text-muted">
             We help businesses enter the UAE and build from scratch — company
             incorporation, the right legal structure, premises, sourcing and
             procurement, manufacturing setup, financial and audit support, and
             investment coordination. One advisory team, from first filing to a
             running operation.
           </p>
-          <div className="mt-8 flex justify-center md:justify-end">
+          <div className="mt-8 flex justify-center">
             <Button href="/contact">Contact Us</Button>
           </div>
         </div>
@@ -50,29 +50,27 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="mx-auto max-w-[1400px] px-5 py-24 md:px-10">
-        <div className="grid items-end gap-8 lg:grid-cols-[1fr_auto]">
-          <div className="max-w-4xl">
-            <Badge>About</Badge>
-            <h2 className="display mt-6 text-4xl md:text-6xl lg:text-[68px]">
-              A practical consulting team for ambitious businesses shaping their UAE future.
-            </h2>
-          </div>
+      <section className="mx-auto max-w-[1400px] px-5 py-24 text-center md:px-10">
+        <Badge>About</Badge>
+        <h2 className="display mx-auto mt-6 max-w-4xl text-4xl md:text-6xl lg:text-[64px]">
+          A practical consulting team for ambitious businesses shaping their UAE future.
+        </h2>
+        <div className="mt-8 flex justify-center">
           <Button href="/about">Learn more</Button>
         </div>
       </section>
 
       <section id="services" className="pb-10">
-        <div className="mx-auto max-w-[1400px] px-5 md:px-10">
+        <div className="mx-auto max-w-[1400px] px-5 text-center md:px-10">
           <Badge>Services</Badge>
-          <div className="mt-6 grid gap-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
-            <h2 className="display text-4xl md:text-6xl">Your guide for the road ahead</h2>
-            <p className="max-w-xl text-[16px] leading-7 text-muted">
-              We stay with you from market entry to delivery — licensing, operations,
-              supply, manufacturing, and finance — so Dubai is a working base, not a
-              paper company.
-            </p>
-          </div>
+          <h2 className="display mx-auto mt-6 max-w-3xl text-4xl md:text-6xl">
+            Your guide for the road ahead
+          </h2>
+          <p className="mx-auto mt-5 max-w-2xl text-[16px] leading-7 text-muted">
+            We stay with you from market entry to delivery — licensing, operations,
+            supply, manufacturing, and finance — so Dubai is a working base, not a
+            paper company.
+          </p>
         </div>
         <div className="no-scrollbar mt-12 flex gap-5 overflow-x-auto px-5 pb-4 md:px-10">
           {services.map((service) => (
@@ -99,13 +97,15 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-[1400px] px-5 py-24 md:px-10">
-        <p className="mb-4 text-sm text-muted">Benefits</p>
-        <h2 className="display max-w-xl text-4xl md:text-6xl">Why choose us?</h2>
-        <p className="mt-5 max-w-2xl text-[16px] leading-7 text-muted">
-          UAE setup is a chain of decisions — jurisdiction, activity, office, visas,
-          bank, tax, suppliers. We cut through that chain with structured analysis and
-          hands-on execution.
-        </p>
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="mb-4 text-sm text-muted">Benefits</p>
+          <h2 className="display text-4xl md:text-6xl">Why choose us?</h2>
+          <p className="mt-5 text-[16px] leading-7 text-muted">
+            UAE setup is a chain of decisions — jurisdiction, activity, office, visas,
+            bank, tax, suppliers. We cut through that chain with structured analysis and
+            hands-on execution.
+          </p>
+        </div>
 
         <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           <article className="relative min-h-[340px] overflow-hidden rounded-[28px]">
@@ -166,15 +166,17 @@ export default function Home() {
       </section>
 
       <section className="bg-[#0f1417] py-24 text-white">
-        <div className="mx-auto max-w-[1400px] px-5 md:px-10">
-          <h2 className="display max-w-3xl text-4xl md:text-6xl">From scratch to a running UAE business</h2>
-          <p className="mt-5 max-w-2xl text-[16px] leading-7 text-white/70">
+        <div className="mx-auto max-w-[1400px] px-5 text-center md:px-10">
+          <h2 className="display mx-auto max-w-3xl text-4xl md:text-6xl">
+            From scratch to a running UAE business
+          </h2>
+          <p className="mx-auto mt-5 max-w-2xl text-[16px] leading-7 text-white/70">
             Most firms sell a licence. We stay for the operating system around it —
             people, premises, suppliers, money, and compliance.
           </p>
           <div className="mt-14 grid gap-10 md:grid-cols-2 lg:grid-cols-4">
             {steps.map((step) => (
-              <div key={step.n}>
+              <div key={step.n} className="text-left">
                 <p className="text-sm text-white/45">{step.n}</p>
                 <h3 className="mt-3 text-2xl">{step.title}</h3>
                 <p className="mt-3 text-[15px] leading-7 text-white/70">{step.text}</p>

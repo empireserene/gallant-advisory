@@ -14,10 +14,10 @@ export default function AboutPage() {
   return (
     <>
       <section className="mx-auto max-w-[1400px] px-5 pb-8 pt-12 md:px-10 md:pt-20">
-        <div className="ml-auto max-w-3xl text-center md:text-right">
+        <div className="mx-auto max-w-3xl text-center">
           <Badge>About us</Badge>
           <h1 className="display mt-6 text-[42px] md:text-[72px]">Our story so far</h1>
-          <p className="mt-5 text-[17px] leading-8 text-muted">
+          <p className="mx-auto mt-5 max-w-2xl text-[17px] leading-8 text-muted">
             A Dubai-based advisory practice built to take businesses from first
             conversation to a company that can operate in the UAE.
           </p>
@@ -56,17 +56,17 @@ export default function AboutPage() {
       </section>
 
       <section className="bg-[#f7f8f8] py-24">
-        <div className="mx-auto max-w-[1400px] px-5 md:px-10">
+        <div className="mx-auto max-w-[1400px] px-5 text-center md:px-10">
           <Badge>Mission & values</Badge>
-          <h2 className="display mt-6 max-w-3xl text-4xl md:text-6xl">We&apos;re on a mission…</h2>
-          <p className="mt-5 max-w-2xl text-[16px] leading-8 text-muted">
+          <h2 className="display mx-auto mt-6 max-w-3xl text-4xl md:text-6xl">We&apos;re on a mission…</h2>
+          <p className="mx-auto mt-5 max-w-2xl text-[16px] leading-8 text-muted">
             To give international businesses a clear, execution-ready path into the UAE
             — insight, structure, and operating support that turn a licence into
             long-term value.
           </p>
           <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
             {values.map((item) => (
-              <article key={item.title} className="rounded-[28px] bg-white p-7">
+              <article key={item.title} className="rounded-[28px] bg-white p-7 text-left">
                 <h3 className="text-2xl">{item.title}</h3>
                 <p className="mt-3 text-[15px] leading-7 text-muted">{item.text}</p>
               </article>
@@ -76,7 +76,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mx-auto max-w-[1400px] px-5 py-24 md:px-10">
-        <h2 className="display max-w-3xl text-4xl md:text-6xl">How we work</h2>
+        <h2 className="display mx-auto max-w-3xl text-center text-4xl md:text-6xl">How we work</h2>
         <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {steps.map((step) => (
             <div key={step.n} className="border-t border-line pt-6">

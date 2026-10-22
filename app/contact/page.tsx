@@ -12,10 +12,10 @@ export default function ContactPage() {
   return (
     <>
       <section className="mx-auto max-w-[1400px] px-5 pb-8 pt-12 md:px-10 md:pt-20">
-        <div className="ml-auto max-w-3xl text-center md:text-right">
+        <div className="mx-auto max-w-3xl text-center">
           <Badge>Contact us</Badge>
           <h1 className="display mt-6 text-[42px] md:text-[72px]">We&apos;d love to hear from you</h1>
-          <p className="mt-5 text-[17px] leading-8 text-muted">
+          <p className="mx-auto mt-5 max-w-2xl text-[17px] leading-8 text-muted">
             Call us or visit the office in Al Muraqabbat. We are ready to discuss
             UAE market entry and how we can support your setup.
           </p>
@@ -23,7 +23,7 @@ export default function ContactPage() {
       </section>
 
       <section className="mx-auto max-w-[1400px] px-5 py-12 md:px-10">
-        <div className="max-w-xl rounded-[28px] bg-[#f7f8f8] p-8 md:ml-auto">
+        <div className="mx-auto max-w-xl rounded-[28px] bg-[#f7f8f8] p-8 text-center">
           <h2 className="text-2xl">Visit or call</h2>
           <p className="mt-5 text-[16px] leading-8 text-muted">{site.address}</p>
           <p className="mt-6">

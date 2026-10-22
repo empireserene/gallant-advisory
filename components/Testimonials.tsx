@@ -15,10 +15,10 @@ export function Testimonials() {
   return (
     <section className="bg-[#f7f8f8] py-24">
       <div className="mx-auto max-w-[1400px] px-5 md:px-10">
-        <p className="mb-4 text-sm text-muted">Testimonials</p>
-        <div className="flex flex-col justify-between gap-8 md:flex-row md:items-end">
-          <h2 className="display max-w-xl text-4xl md:text-6xl">What our clients say</h2>
-          <p className="max-w-md text-[16px] leading-7 text-muted">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="mb-4 text-sm text-muted">Testimonials</p>
+          <h2 className="display text-4xl md:text-6xl">What our clients say</h2>
+          <p className="mx-auto mt-5 max-w-xl text-[16px] leading-7 text-muted">
             Market entry is a multi-year commitment, so we build relationships that
             last beyond the trade licence.
           </p>
@@ -36,7 +36,7 @@ export function Testimonials() {
           ))}
         </div>
 
-        <div className="mt-10 flex items-center justify-between">
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
           <div className="flex gap-3">
             <button
               type="button"

@@ -26,11 +26,11 @@ export default async function ServicePage({ params }: Props) {
   return (
     <>
       <section className="mx-auto max-w-[1400px] px-5 pb-8 pt-12 md:px-10 md:pt-20">
-        <div className="max-w-3xl">
+        <div className="mx-auto max-w-3xl text-center">
           <Badge>Services</Badge>
           <h1 className="display mt-6 text-[42px] md:text-[64px]">{service.title}</h1>
-          <p className="mt-5 text-[17px] leading-8 text-muted">{service.summary}</p>
-          <div className="mt-8">
+          <p className="mx-auto mt-5 max-w-2xl text-[17px] leading-8 text-muted">{service.summary}</p>
+          <div className="mt-8 flex justify-center">
             <Button href="/contact">Contact Us</Button>
           </div>
         </div>
